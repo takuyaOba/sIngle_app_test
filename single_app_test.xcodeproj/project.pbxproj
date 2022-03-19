@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		0658A95227E0D8A600003266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A95127E0D8A600003266 /* AppDelegate.swift */; };
 		0658A95427E0D8A600003266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A95327E0D8A600003266 /* SceneDelegate.swift */; };
-		0658A95627E0D8A600003266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A95527E0D8A600003266 /* ViewController.swift */; };
-		0658A95927E0D8A600003266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0658A95727E0D8A600003266 /* Main.storyboard */; };
+		0658A95627E0D8A600003266 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A95527E0D8A600003266 /* FirstViewController.swift */; };
+		0658A95927E0D8A600003266 /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0658A95727E0D8A600003266 /* FirstViewController.storyboard */; };
 		0658A95B27E0D8AC00003266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0658A95A27E0D8AC00003266 /* Assets.xcassets */; };
 		0658A95E27E0D8AC00003266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0658A95C27E0D8AC00003266 /* LaunchScreen.storyboard */; };
 		0658A96927E0D8AD00003266 /* single_app_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A96827E0D8AD00003266 /* single_app_testTests.swift */; };
 		0658A97427E0D8AD00003266 /* single_app_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A97327E0D8AD00003266 /* single_app_testUITests.swift */; };
+		0658A98427E2245500003266 /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0658A98327E2245500003266 /* SecondViewController.storyboard */; };
+		0658A98A27E4CF8C00003266 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A98927E4CF8C00003266 /* SecondViewController.swift */; };
+		0658A99227E6043000003266 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658A99127E6043000003266 /* ThirdViewController.swift */; };
+		0658A99427E6043A00003266 /* ThirdViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0658A99327E6043A00003266 /* ThirdViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,8 @@
 		0658A94E27E0D8A600003266 /* single_app_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = single_app_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0658A95127E0D8A600003266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0658A95327E0D8A600003266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0658A95527E0D8A600003266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0658A95827E0D8A600003266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0658A95527E0D8A600003266 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0658A95827E0D8A600003266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstViewController.storyboard; sourceTree = "<group>"; };
 		0658A95A27E0D8AC00003266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0658A95D27E0D8AC00003266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0658A95F27E0D8AC00003266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		0658A96F27E0D8AD00003266 /* single_app_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = single_app_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0658A97327E0D8AD00003266 /* single_app_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = single_app_testUITests.swift; sourceTree = "<group>"; };
 		0658A97527E0D8AD00003266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0658A98327E2245500003266 /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		0658A98927E4CF8C00003266 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0658A99127E6043000003266 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0658A99327E6043A00003266 /* ThirdViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				0658A95127E0D8A600003266 /* AppDelegate.swift */,
 				0658A95327E0D8A600003266 /* SceneDelegate.swift */,
-				0658A95527E0D8A600003266 /* ViewController.swift */,
-				0658A95727E0D8A600003266 /* Main.storyboard */,
+				0658A95527E0D8A600003266 /* FirstViewController.swift */,
+				0658A95727E0D8A600003266 /* FirstViewController.storyboard */,
 				0658A95A27E0D8AC00003266 /* Assets.xcassets */,
 				0658A95C27E0D8AC00003266 /* LaunchScreen.storyboard */,
 				0658A95F27E0D8AC00003266 /* Info.plist */,
+				0658A98327E2245500003266 /* SecondViewController.storyboard */,
+				0658A98927E4CF8C00003266 /* SecondViewController.swift */,
+				0658A99127E6043000003266 /* ThirdViewController.swift */,
+				0658A99327E6043A00003266 /* ThirdViewController.storyboard */,
 			);
 			path = single_app_test;
 			sourceTree = "<group>";
@@ -232,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0658A99427E6043A00003266 /* ThirdViewController.storyboard in Resources */,
 				0658A95E27E0D8AC00003266 /* LaunchScreen.storyboard in Resources */,
+				0658A98427E2245500003266 /* SecondViewController.storyboard in Resources */,
 				0658A95B27E0D8AC00003266 /* Assets.xcassets in Resources */,
-				0658A95927E0D8A600003266 /* Main.storyboard in Resources */,
+				0658A95927E0D8A600003266 /* FirstViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0658A95627E0D8A600003266 /* ViewController.swift in Sources */,
+				0658A95627E0D8A600003266 /* FirstViewController.swift in Sources */,
 				0658A95227E0D8A600003266 /* AppDelegate.swift in Sources */,
+				0658A99227E6043000003266 /* ThirdViewController.swift in Sources */,
+				0658A98A27E4CF8C00003266 /* SecondViewController.swift in Sources */,
 				0658A95427E0D8A600003266 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +313,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0658A95727E0D8A600003266 /* Main.storyboard */ = {
+		0658A95727E0D8A600003266 /* FirstViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0658A95827E0D8A600003266 /* Base */,
 			);
-			name = Main.storyboard;
+			name = FirstViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		0658A95C27E0D8AC00003266 /* LaunchScreen.storyboard */ = {
