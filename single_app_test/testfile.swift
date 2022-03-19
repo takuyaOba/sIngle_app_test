@@ -1,5 +1,5 @@
 //
-//  testtest.swift
+//  testfile.swift
 //  single_app_test
 //
 //  Created by mt-square.toba on 2022/03/19.
@@ -7,5 +7,3 @@
 //
 
 import Foundation
-//testetst
-//test記載
