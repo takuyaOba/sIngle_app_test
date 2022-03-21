@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second View Controller-->
+        <!--2ページ-->
         <scene sceneID="EXF-nq-a1C">
             <objects>
                 <viewController id="RMX-gT-Yv5" customClass="SecondViewController" customModule="single_app_test" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,6 +43,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="czp-3Q-o5X"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="2ページ" image="sun.min.fill" catalog="system" id="zDG-Nd-JkV"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="inputtedTextLabel" destination="9Qk-Or-rjZ" id="xTj-0k-4As"/>
                         <segue destination="ia6-je-pG5" kind="show" identifier="ThirdViewController" id="B67-ev-v47"/>
@@ -64,4 +66,7 @@
             <point key="canvasLocation" x="179" y="163"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sun.min.fill" catalog="system" width="128" height="121"/>
+    </resources>
 </document>

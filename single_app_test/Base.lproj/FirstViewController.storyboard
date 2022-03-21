@@ -66,11 +66,13 @@
             </objects>
             <point key="canvasLocation" x="2459.1999999999998" y="77.58620689655173"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--１ページ-->
         <scene sceneID="fvL-1J-38f">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LAC-Uc-0KU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="１ページ" image="cloud.fog.fill" catalog="system" id="ff6-RH-FwT"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Php-LI-UIY">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -85,4 +87,7 @@
             <point key="canvasLocation" x="884" y="120.44334975369459"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cloud.fog.fill" catalog="system" width="128" height="122"/>
+    </resources>
 </document>
